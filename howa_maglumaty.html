@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>howa Maglumaty</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <section class="main">
+            <section class="inputs">
+                <input type="text" placeholder="Şäherli gözle..." id="cityinput">
+                <input type="submit" id="add" value="Gorkez">
+            </section>
+
+            <section class="display">
+                <div class="wrapper">
+                    <h1 id="cityoutput"></h1>  <!-- yokardaky yazan inputymdan cekip almaly-->
+                    <p id="description"></p> <!-- howa barada alynan maglumatlary gorkezyar-->
+                    <p id="temp"></p>  <!-- API dan gelen tempraturalary gorkezyar-->
+                    <p id="wind"></p> <!-- selamlyn tizligini gorkezyan bolum -->
+                </div>
+            </section>
+
+        </section>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: tomato;
+}
+
+.container-fluid{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.inputs{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50px;
+
+}
+
+.inputs input[type="text"]{
+    height: 50px;
+    width: 300px;
+    background: black;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border-radius: 2px;
+    margin-right: 4px;
+}
+
+.inputs input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background-color: #bb702b;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.display{
+    text-align: center;
+    width: 100%;
+    color: seagreen;
+}
+
+.wrapper{
+    margin: 0 0rem;
+    background-color: white;
+    min-height: 200px;
+    margin: 10px auto;
+    border-radius: 50px;
+    
+    
+}
+
+.wrapper h1{
+    padding: 5px 0;
+    text-align: center;
+    background: yellow;
+    color: rgb(255, 3, 3);
+    font-family: monospace;
+    border-radius: 50px;
+}
+
+.wrapper p{
+    margin: 20px 50px;
+    margin-right:20px;
+    text-align: left;
+    color: rgb(3, 247, 194);
+    font-size: 23px;
+
+}
+
+.wrapper h1 span{
+    font-size: 21px;
+    color: lightblue;
+}
+
+.wrapper p span{
+    color: violet;
+    font-size: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
